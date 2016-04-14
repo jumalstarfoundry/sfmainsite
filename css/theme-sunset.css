@@ -747,7 +747,7 @@ nav hr {
   height: 100%;
   top: 0px;
   content: '';
-  opacity: 0.9;
+  opacity: 0;
   z-index: 2;
   background-color: #820233;
   left: 0;
@@ -925,6 +925,7 @@ header.title:before {
 .action-banner .btn {
   margin-right: 16px;
 }
+
 header.signup {
   padding: 180px 0px;
   position: relative;
