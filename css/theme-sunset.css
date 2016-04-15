@@ -1983,6 +1983,33 @@ blockquote {
 .filters li.active {
   border-bottom: 2px solid #ca293e;
 }
+
+.filtersFooter {
+  padding: 0px;
+  list-style: none;
+  overflow: hidden;
+}
+
+.filtersFooter li {
+  padding-left: 100px;
+  font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #ca293e;
+  cursor: pointer;
+  line-height: 3;
+  text-align: left;
+}
+.filtersFooter li:last-child {
+  margin-right: 0px;
+}
+
+.filtersFooter a:hover {
+  border-bottom: 2px solid #ca293e;
+}
+
 .project {
   height: 345px;
 }
