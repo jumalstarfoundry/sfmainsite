@@ -1,5 +1,5 @@
 .bg-primary {
-  background-color: #820233 !important;
+  background-color: #94DC90 !important;
 }
 .bg-secondary-1 {
   background-color: #530031 !important;
@@ -749,8 +749,7 @@ nav hr {
   content: '';
   opacity: 0.5;
   z-index: 2;
-  background-color: #820233;
-  left: 0;
+  background-color: #AE82C2;
 }
 .overlay .container {
   position: relative;
