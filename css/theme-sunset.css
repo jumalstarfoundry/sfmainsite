@@ -7,6 +7,12 @@
 .bg-secondary-2 {
   background-color: #FAEBD7 !important;
 }
+.bg-secondary-3 {
+  background-color: #FFFF00 !important;
+}
+.bg-secondary-4 {
+  background-color: #ff7600 !important;
+}
 .bg-white {
   background-color: #fff !important;
 }
@@ -44,10 +50,13 @@
   color: #FFF;
 }
 .text-black {
-  color: #191919;
+  color: #737373;
 }
 .text-yellow {
   color: #FFFF00;
+}
+.text-green {
+  color: #007b77;
 }
 .text-primary {
   color: #820233;
@@ -153,6 +162,12 @@ h2 {
 h3 {
   font-size: 26px;
   line-height: 32px;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 18px;
 }
 h5 {
   font-size: 18px;
@@ -347,6 +362,17 @@ section:nth-of-type(even) {
   background: #ca293e;
   color: #fff;
 }
+
+.btn-orange {
+  border-color: #ff7600;
+  color: #ff7600;
+}
+.btn-orange:hover {
+  border-color: #ff7600;
+  color: #fff;
+  background: #ff7600;
+}
+
 .btn-white {
   border-color: #fff;
   color: #fff;
@@ -359,6 +385,15 @@ section:nth-of-type(even) {
 .btn-white.btn-filled {
   background: #fff;
   color: #CB5E00;
+}
+.btn-green {
+  border-color: #007b77;
+  color: #007b77;
+}
+.btn-green:hover {
+  border-color: #007b77;
+  color: #fff;
+  background: #007b77;
 }
 .btn-green.btn-filled {
   background: #007B76;
@@ -378,12 +413,12 @@ section:nth-of-type(even) {
 
 .btn-grey {
   border-color: #777777;
-  color: #333333;
+  color: #777777;
 }
 .btn-grey:hover {
-  background-color: #333333;
+  background-color: #777777;
   color: #fff;
-  border-color: #333333;
+  border-color: #777777;
 }
 .btn-lg {
   padding: 18px 40px;
@@ -553,13 +588,13 @@ nav hr {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 .overlay-bar .menu li a {
-  color: #fff;
+  color: #737373;
 }
 .overlay-bar .menu li a:hover {
-  color: #fff;
+  color: #737373;
 }
 .overlay-bar .social-icons li a {
-  color: #fff;
+  color: #737373;
 }
 .overlay-bar .subnav li a {
   color: #777777;
@@ -771,7 +806,7 @@ nav hr {
   content: '';
   opacity: 0.7;
   z-index: 2;
-  background-color: #00E2D9;
+  background-color: #FFFF00;
 }
 .overlay .container {
   position: relative;
@@ -1615,8 +1650,8 @@ img.phone-portrait {
 }
 .social-icons li {
   float: left;
-  margin-right: 24px;
-  font-size: 24px;
+  margin-right: 32px;
+  font-size: 32px;
 }
 .social-icons li:last-child {
   margin-right: 0px;
@@ -2012,7 +2047,6 @@ blockquote {
 }
 
 .filtersFooter li {
-  padding-left: 100px;
   font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-size: 16px;
@@ -2854,6 +2888,10 @@ footer.short-2 .contact-action .arrow_right {
 footer.short-2 .contact-action:hover {
   background: #23010e;
 }
+.middleCol {
+  padding-left: 133px;
+  padding-right: 20px;
+}
 @media only screen and (min-width: 320px) and (max-width: 767px) {
   .top-bar {
     position: absolute;
@@ -3175,6 +3213,10 @@ footer.short-2 .contact-action:hover {
   }
   .instafeed ul li {
     width: 25%;
+  }
+  .middleCol {
+    padding-left:15px;
+    padding-right: 15px;
   }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
