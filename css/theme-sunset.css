@@ -1,17 +1,17 @@
 .bg-primary {
-  background-color: #007B76 !important;
+  background-color: #7C7AB2 !important;
 }
 .bg-secondary-1 {
-  background-color: #26DAD3 !important;
+  background-color: #1D1AB2 !important;
 }
 .bg-secondary-2 {
-  background-color: #FAEBD7 !important;
+  background-color: #f4f4f4 !important;
 }
 .bg-secondary-3 {
   background-color: #FFFF00 !important;
 }
 .bg-secondary-4 {
-  background-color: #ff7600 !important;
+  background-color: #0B095A !important;
 }
 .bg-white {
   background-color: #fff !important;
@@ -58,6 +58,9 @@
 .text-green {
   color: #007b77;
 }
+.text-blue {
+  color: #1D1AB2;
+}
 .text-primary {
   color: #820233;
 }
@@ -89,16 +92,16 @@
   background: none;
   border: none;
   box-shadow: none;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Arvo", "Helvetica Neue", Helvetica, Arial, serif, sans-serif;
 }
 .font-body {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Arvo", "Helvetica Neue", Helvetica, Arial, serif, sans-serif;
 }
 .font-heading {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Nunito", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 body {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Arvo", "Helvetica Neue", Helvetica, Arial, serif, sans-serif;
   -webkit-font-smoothing: antialiased;
   color: #777777;
   font-size: 14px;
@@ -111,13 +114,13 @@ h4,
 h5,
 h5,
 h6 {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Nunito", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   color: #333333;
   margin: 0px;
 }
 .alt-font {
-  font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Arvo", "Open Sans", "Helvetica Neue", Helvetica, Arial, serif, sans-serif;
   font-weight: bold;
   font-size: 11px;
   text-transform: uppercase;
@@ -351,7 +354,7 @@ section:nth-of-type(even) {
   padding: 14px 28px 13px 28px;
   line-height: 1;
   border: 2px solid #ca293e;
-  font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Arvo", "Open Sans", "Helvetica Neue", Helvetica, Arial, serif, sans-serif;
   font-weight: bold;
   font-size: 11px;
   text-transform: uppercase;
@@ -359,6 +362,23 @@ section:nth-of-type(even) {
   color: #ca293e;
 }
 .btn-primary.btn-filled {
+  background: #ca293e;
+  color: #fff;
+}
+
+.btn-menu {
+  border-radius: 25px;
+  display: inline-block;
+  padding: 24px 16px;
+  line-height: 1px;
+  border: 2px solid #ca293e;
+  font-weight: bold;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #ca293e;
+}
+.btn-menu.btn-filled {
   background: #ca293e;
   color: #fff;
 }
@@ -387,18 +407,18 @@ section:nth-of-type(even) {
   color: #CB5E00;
 }
 .btn-green {
-  border-color: #007b77;
-  color: #007b77;
+  border-color: #34D800;
+  color: #34D800;
 }
 .btn-green:hover {
-  border-color: #007b77;
+  border-color: #34D800;
   color: #fff;
-  background: #007b77;
+  background: #34D800;
 }
 .btn-green.btn-filled {
-  background: #007B76;
+  background: #34D800;
   color: #fff;
-  border-color: #007B76;
+  border-color: #34D800;
 }
 
 .btn-yellow {
@@ -411,14 +431,14 @@ section:nth-of-type(even) {
   border-color: #FFFF00;
 }
 
-.btn-grey {
-  border-color: #777777;
-  color: #777777;
+.btn-lite-blue {
+  border-color: #7C7AB2;
+  color: #7C7AB2;
 }
-.btn-grey:hover {
-  background-color: #777777;
+.btn-lite-blue:hover {
+  background-color: #7C7AB2;
   color: #fff;
-  border-color: #777777;
+  border-color: #7C7AB2;
 }
 .btn-lg {
   padding: 18px 40px;
@@ -440,7 +460,7 @@ section:nth-of-type(even) {
   border-color: rgba(0, 0, 0, 0);
 }
 .link-text {
-  font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Arvo", "Open Sans", "Helvetica Neue", Helvetica, Arial, serif, sans-serif;
   font-weight: bold;
   font-size: 11px;
   text-transform: uppercase;
@@ -557,7 +577,7 @@ nav hr {
   margin-right: 0px;
 }
 .menu li a {
-  font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Arvo", "Open Sans", "Helvetica Neue", Helvetica, Arial, serif, sans-serif;
   font-weight: bold;
   font-size: 11px;
   text-transform: uppercase;
@@ -588,10 +608,10 @@ nav hr {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 .overlay-bar .menu li a {
-  color: #737373;
+  color: #DD8DAB;
 }
 .overlay-bar .menu li a:hover {
-  color: #737373;
+  color: #DE0052;
 }
 .overlay-bar .social-icons li a {
   color: #737373;
@@ -804,7 +824,7 @@ nav hr {
   height: 100%;
   top: 0px;
   content: '';
-  opacity: 0.7;
+  opacity: 0.8;
   z-index: 2;
   background-color: #FFFF00;
 }
@@ -1580,7 +1600,7 @@ img.phone-portrait {
   font-size: 18px;
 }
 .testimonials-slider .author {
-  font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Arvo", "Open Sans", "Helvetica Neue", Helvetica, Arial, serif, sans-serif;
   font-weight: bold;
   font-size: 11px;
   text-transform: uppercase;
@@ -1667,7 +1687,7 @@ img.phone-portrait {
   background: none;
   border: none;
   box-shadow: none;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Arvo", "Helvetica Neue", Helvetica, Arial, serif, sans-serif;
   float: left;
   color: #fff;
   min-width: 400px;
@@ -2046,13 +2066,13 @@ blockquote {
   overflow: hidden;
 }
 
-.filtersFooter li {
-  font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+.filtersFooter li a {
+  font-family: "Arvo", "Open Sans", "Helvetica Neue", Helvetica, Arial, serif, sans-serif;
   font-weight: bold;
   font-size: 16px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: #ca293e;
+  color: #DD8DAB;
   cursor: pointer;
   line-height: 3;
   text-align: left;
@@ -2062,7 +2082,7 @@ blockquote {
 }
 
 .filtersFooter a:hover {
-  border-bottom: 2px solid #ca293e;
+ color: #DE0052;
 }
 
 .project {
