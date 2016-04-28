@@ -826,7 +826,8 @@ nav hr {
   content: '';
   opacity: 0.8;
   z-index: 2;
-  background-color: #FFFF00;
+  /* background-color: #FFFF00; */
+  background-color: #34D800;
 }
 .overlay .container {
   position: relative;
