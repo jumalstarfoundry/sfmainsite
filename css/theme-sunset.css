@@ -878,6 +878,31 @@ header .btn:last-child {
   height: 150%;
   top: -20%;
 }
+
+.program-detail {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.program-detail h1 {
+  font-size: 40px;
+  line-height: 56px;
+  font-weight: 600;
+  margin-bottom: 64px;
+  margin-bottom: 24px;
+}
+
+.program-detail p {
+  font-size: 16px;
+  line-height: 24px;
+}
+.program-detail .btn {
+  margin-right: 16px;
+}
+.program-detail .btn:last-child {
+  marging-right: 0px;
+}
+
 .hero-slider {
   padding: 0px;
   position: relative;
@@ -1442,7 +1467,7 @@ img.phone-portrait {
   left: 0px;
   width: 100%;
   height: 100%;
-  background-size: cover !important;
+  background-size: tile !important;
   z-index: 0;
   background-position: 50% 50% !important;
 }
